@@ -1,0 +1,7 @@
+version: "3"
+services:
+  web:
+    build: .
+    image: nanamo/web_swpfile
+    ports:
+      - "8080:80"
